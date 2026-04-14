@@ -3,7 +3,7 @@
  *   Hari dan Tanggal    : Selasa, 14 April 2026
  *   Nama (NIM)          : Abydzar Dzakyan Akbar
  *   Nama File           : soal1mod1.c
- *   Deskripsi           : 
+ *   Deskripsi           : Menggambarkan lampu sesuai dengan bilangannya
  * 
  */
 
@@ -19,13 +19,13 @@
     for (int i = 1; i <= n; i++){
 
         if (i%2 == 0 && i%3 == 0){
-            printf("biru\n");
+            printf("BIRU\n");
         } else if(i%3==0){
-            printf("merah\n");
+            printf("MERAH\n");
         } else if(i%2==0){
-            printf("kuning\n");
+            printf("KUNING\n");
         } else if(i>=10 && i%2==0){
-            printf("hijau\n");
+            printf("HIJAU\n");
         } else{
             printf("%d\n", i);
         }
