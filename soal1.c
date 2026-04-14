@@ -13,7 +13,7 @@
   
  int main() {
     int n;
-    printf("masukkan angka : ");
+    printf("");
     scanf("%d", &n);
     
     for (int i = 1; i <= n; i++){
